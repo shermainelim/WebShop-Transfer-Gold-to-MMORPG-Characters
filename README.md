@@ -1,7 +1,7 @@
 # WebShop-Transfer-Gold-to-MMORPG-Characters
 Project file "ProjectFile_MMORPGMaker-MV-MMO_ABS" to edit for RPG MAKER MV ENGINE provided too. Includes plugins from various developers. File size is too large to upload on github, therefore download from my folder in this link: https://drive.google.com/open?id=19VaBwdiRiUJJvaIUIceAAWSNUbTNmbMA
 
-Created webshop with C# and MSSQL to load game product pages and also a coin purchase that transfer gold to MMORPG game in real time. Look at video presentation below the picture to understand our whole project. Please also check either the WIKI or PDF for more information. 
+Created webshop with C# and MSSQL to load game product pages and also a coin purchase that transfer gold to MMORPG game in real time. Look at video presentation to understand our whole project. Please also check either the WIKI or PDF for more information. 
 
 Hi everyone, before reading this documentation, it is recommended that you see the presentation video to get a better idea of how everything works first. PDF documentation is include together with the code when you download. 
 
@@ -11,10 +11,11 @@ Our ASP.NET CORE is the connector to SQL database and another game database call
 
 Our CA Project is a Game Webshop that sells games and coins. The coin product is the one that when purchased from our webshop can be transferred to the real MMO game. The issue is ReThinkDB has security concerns and that we can only localhost connection to it via our C# program unless we publish and deploy the C# code to the cloud server which we currently can't due to time constraints.
 
+Video Presentation Link: https://www.youtube.com/watch?v=8fGmZzqksig
 
 ![mmo](https://user-images.githubusercontent.com/65886071/82803639-76577880-9eb3-11ea-9a23-fbebcd29438c.png)
 
-Video Presentation Link: https://www.youtube.com/watch?v=8fGmZzqksig
+
 
 The basic functionalities fulfilled are: 
 1. Login 
