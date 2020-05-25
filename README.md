@@ -3,6 +3,12 @@ Created webshop with C# and MSSQL to load game product pages and also a coin pur
 
 Hi everyone, before reading this documentation, it is recommended that you see the presentation video to get a better idea of how everything works first. PDF documentation is include together with the code when you download. 
 
+Our ASP.NET CORE is the connector to SQL database and another game database called ReThinkDB which we called this restful api coded inside C#. For this CA project, we have done something special, we have made an MMO(multiple player game) accessible via any browser or mobile at this link: http://192.119.86.65/mmo/www/
+
+**Note: Due to costs in maintaining the VPS server, if you are unable to access this link, it means I have already taken down the server because I do not want to pay to maintain it anymore. **
+
+Our CA Project is a Game Webshop that sells games and coins. The coin product is the one that when purchased from our webshop can be transferred to the real MMO game. The issue is ReThinkDB has security concerns and that we can only localhost connection to it via our C# program unless we publish and deploy the C# code to the cloud server which we currently can't due to time constraints.
+
 
 ![mmo](https://user-images.githubusercontent.com/65886071/82803639-76577880-9eb3-11ea-9a23-fbebcd29438c.png)
 
