@@ -1,0 +1,122 @@
+﻿
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var proDetailsList = (List<ProductDetails>)ViewData["productDetailsList"];
+    @using Microsoft.AspNetCore.Http
+    String errormsg = Context.Session.GetString("Error");
+}
+
+<h1>Cart</h1>
+<form asp-controller="ShoppingCart" asp-action="Checkout" method="post">
+
+    @{
+        if (errormsg != null)
+        {
+            if (errormsg != "") { 
+                <div class="alert alert-danger" role="alert">
+                    @errormsg
+                </div>
+            }
+        }
+    }
+
+    <table class="table cart-table" id="myTable">
+        <tr>
+            <th>No</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>GameValue</th>
+            <th>GameUsername</th>
+            <th>Total $</th>
+            <th>Remove</th>
+        </tr>
+
+        @{ int rowNo = 0; }
+        @{
+            double total = 0;
+            int valuetotal = 0;
+            if (proDetailsList != null)
+            {
+
+                foreach (var productdetail in proDetailsList)
+                {
+                    string img = "/images/" + productdetail.product.ImageURL;
+                    int quantity = productdetail.Quantity;
+                    double itemtotal = productdetail.Quantity * productdetail.product.Price;
+                    total += itemtotal;
+                    int value = productdetail.product.Value;
+                    int finalvalue = productdetail.Quantity * productdetail.product.Value;
+                    valuetotal += finalvalue;
+
+                    string rowID = "row" + rowNo;
+                    <tr id="@rowID">
+                        <td id="rowNo">
+                            @(rowNo += 1)<input type="hidden" name="productID" value="@productdetail.product.Id">
+                        </td>
+                        <td><img src="@img" style="width:190px;height:190px;" /></td>
+                        <td id="nameitem1" name="nameitem1">@productdetail.product.Name<input type="hidden" name="nameItem" value="@productdetail.product.Name"></td>
+                        <td id="priceitem1" name="priceitem1">@productdetail.product.Price</td>
+                        <td id="qty" name="qtyitem1">@productdetail.Quantity<input type="hidden" name="qtyItem" value="@productdetail.Quantity"></td>
+                        <td id="value" name="valueitem1">@finalvalue<input type="hidden" name="valueItem" value="@finalvalue"></td>
+                        @if (@productdetail.product.Name == "1000 Coins for NUS Team 4 MMORPG")
+                        {
+                            @using (Html.BeginForm())
+                            {
+                                <td><input class="game-value" type="text" id="gameitem1" name="gameitem1"></td>
+                            }
+                        }
+                        else
+                        {
+                            <td id="game" name="gameitem2">N.A.</td>
+                        }
+                        <td id="monitem1" name="monitem1">@itemtotal</td>
+                        <td> <@Html.ActionLink("Remove", "RemoveItem", "ShoppingCart", new { productId = productdetail.product.Id }, null)></td>
+                        <td> <@Html.ActionLink("+", "AddOneItem", "ShoppingCart", new { productId = productdetail.product.Id }, null)></td>
+                        <td> <@Html.ActionLink("-", "MinusOneItem", "ShoppingCart", new { productId = productdetail.product.Id }, null)></td>
+
+                    </tr>
+                }
+            }
+        }
+    </table>
+
+    <div class="bigbottommenu container">
+        <div class="row">
+            <div class="minisidemenu col-4">
+                <div id="">@Html.ActionLink("CONTINUE SHOPPING", "Index", "Products", new { onclick = "" })</div>
+            </div>
+            <div class="col-4"></div>
+            <div class="billtotal col-4">
+                <H2>CART TOTAL</H2>
+                <table class="table cart-total-table">
+                    <tr>
+                        <td>Subtotal $</td>
+                        <td id="subtotal">@total</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td>Total $</td>
+                        <td id="total">@total</td>
+                    </tr>
+                </table>
+               
+                <input type="submit" value="PROCEED TO CHECKOUT" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@section scripts {
+    <script src="~/js/shoppingCartView.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+}

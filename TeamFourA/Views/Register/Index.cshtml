@@ -1,0 +1,40 @@
+﻿@using TeamFourA.Services;
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    StringTable stringTbl = (StringTable)ViewData["StringTbl"];
+}
+
+<form id="registerForm" action="/Register/Register" method="post">
+    <table align="center">
+        <tr>
+            <td align="right">@stringTbl.username:</td>
+            <td><input id="uname" name="username" value="@ViewData["username"]" /></td>
+        </tr>
+        <tr>
+            <td align="right">@stringTbl.password:</td>
+            <td><input id="pwd" type="password" /></td>
+        </tr>
+        <tr>
+            <td align="right">@stringTbl.confirm_password:</td>
+            <td><input id="pwd_again" type="password" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">
+                <input id="registerBtn" type="button" value="@stringTbl.register" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="err">
+                <div id="errmsg">@ViewData["err"]</div>
+            </td>
+        </tr>
+    </table>
+    <input id="hashPwd" name="hashPasswd" type="hidden" />
+</form>
+
+@section scripts {
+    <script src="~/js/site.js"></script>
+}

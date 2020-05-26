@@ -1,0 +1,57 @@
+﻿@model TeamFourA.Models.ProductsViewModel
+
+@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Gallery</h1>
+</div>
+
+<form method="post">
+    <div class="input-group">
+        <input class="form-control" asp-for="@Model.Text" />
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>
+
+<div class="container">
+    @{
+        foreach (var product in @Model.Products)
+        {
+            string img = "/images/" + product.ImageURL;
+
+        <div class="gallery">
+            @if (product.Name == "1000 Coins for NUS Team 4 MMORPG")
+            {
+                <img src="@img" style="width:300px;height:300px;">
+                <div class="desc"><b>@product.Name</b> <br>@product.Description<br> <b>S$@product.Price</b> <br /> </div>
+            }
+            else
+            {
+                <img src="@img" style="width:300px;height:300px;">
+                <div class="desc"><b>@product.Name</b> <br>@product.Description<br> <b>S$@product.Price</b> <br /> </div>
+            }
+
+            @if (product.Name == "NUS Team 4 MMORPG")
+            {
+                <div id=""><a href="http://192.119.86.65/mmo/www/">Click to Play</a></div>
+            }
+            else
+            {
+                <div id="">@Html.ActionLink("Add To Cart", "Index", "Products", new { productId = product.Id }, null)</div>
+
+            }
+        </div>
+
+        }
+    }
+</div>
+
+
+@section scripts {
+    <script src="~/js/productsView.js"></script>
+}

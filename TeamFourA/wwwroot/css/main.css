@@ -1,0 +1,23 @@
+
+
+
+.container{
+    max-width:1200px;
+    margin: auto;
+    overflow:auto;
+}
+.gallery{
+    margin:5px;
+    border:1px solid #ccc;
+    float:left;
+    width:350px;
+    padding-bottom: 15px;
+}
+.gallery img{
+    width:100%;
+    height:auto;
+}
+.desc{
+    padding:15px;
+    text-align:center;
+}
