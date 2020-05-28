@@ -37,7 +37,9 @@ ABS Visual Equipment Plugin Developer (Using Pro Version):  https://github.com/K
 
 For windows users u can download rethinkDB through this link: https://download.rethinkdb.com/windows/
 
-Added :
+Names:
+
+Shermaine Lim Si Hui
 
 Ling Teck Moh Benedict
 
