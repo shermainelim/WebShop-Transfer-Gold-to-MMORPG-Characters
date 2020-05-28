@@ -39,6 +39,6 @@ For windows users u can download rethinkDB through this link: https://download.r
 
 Added :
 
-B
+Ling Teck Moh Benedict
 
 K
