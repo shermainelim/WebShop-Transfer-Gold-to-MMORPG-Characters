@@ -1,7 +1,7 @@
 # WebShop-Transfer-Gold-to-MMORPG-Characters
 Project file "ProjectFile_MMORPGMaker-MV-MMO_ABS" to edit for RPG MAKER MV ENGINE provided too. Includes plugins from various developers. File size is too large to upload on github, therefore download from my folder in this link: https://drive.google.com/open?id=19VaBwdiRiUJJvaIUIceAAWSNUbTNmbMA
 
-Created webshop with C# and MSSQL to load game product pages and also a coin purchase that transfer gold to MMORPG game in real time. Look at video presentation to understand our whole project. Please also check either the WIKI or PDF for more information. 
+Created webshop with C#, MSSQL, NodeJS & ReThinkDBto load game product pages and also a coin purchase that transfer gold to MMORPG game in real time. Look at video presentation to understand our whole project. Please also check either the WIKI or PDF for more information. 
 
 Hi everyone, before reading this documentation, it is recommended that you see the presentation video to get a better idea of how everything works first. PDF documentation is include together with the code when you download. 
 
