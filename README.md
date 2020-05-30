@@ -35,7 +35,7 @@ Links to the game Plugin Developers:
 MMORPG Plugin Developer: https://github.com/samuelcardillo
 ABS Visual Equipment Plugin Developer (Using Pro Version):  https://github.com/KageDesu/Alpha-ABS/wiki/Visual-Equipment
 
-For windows users u can download rethinkDB through this link: https://download.rethinkdb.com/windows/
+For windows users u can download rethinkDB 2.3.6 through this link in Nexus Repository Manager : https://download.rethinkdb.com/#browse/search=keyword%3Dwindows:c770169c0b2e3ed872bbbb55a6612794
 
 Names:
 
