@@ -5,7 +5,9 @@ Created webshop with C#, MSSQL, NodeJS & ReThinkDBto load game product pages and
 
 Hi everyone, before reading this documentation, it is recommended that you see the presentation video to get a better idea of how everything works first. PDF documentation is include together with the code when you download. 
 
-Our ASP.NET CORE is the connector to SQL database and another game database called ReThinkDB which we called this restful api coded inside C#. For this CA project, we have done something special, we have made an MMO(multiple player game) accessible via any browser or mobile at this link: http://192.119.86.65/mmo/www/
+Our ASP.NET CORE is the connector to SQL database and another game database called ReThinkDB which we called this restful api coded inside C#. For this CA project, we have done something special, we have made an MMO(multiple player game) accessible via any browser or mobile.
+
+# OUR MMO Game Created with Game Engine and Additional Plugins: http://192.119.86.65/mmo/www/
 
 Our CA Project is a Game Webshop that sells games and coins. The coin product is the one that when purchased from our webshop can be transferred to the real MMO game. The issue is ReThinkDB has security concerns and that we can only localhost connection to it via our C# program unless we publish and deploy the C# code to the cloud server which we currently can't due to time constraints.
 
@@ -30,7 +32,9 @@ The basic functionalities fulfilled are:
 12. Displaying Visual Equipment on the game character 
 
 Links to the game Plugin Developers:
+
 MMORPG Plugin Developer: https://github.com/samuelcardillo
+
 ABS Visual Equipment Plugin Developer (Using Pro Version):  https://github.com/KageDesu/Alpha-ABS/wiki/Visual-Equipment
 
 For windows users u can download rethinkDB 2.3.6 through this link in Nexus Repository Manager : https://download.rethinkdb.com/#browse/search=keyword%3Dwindows:c770169c0b2e3ed872bbbb55a6612794
