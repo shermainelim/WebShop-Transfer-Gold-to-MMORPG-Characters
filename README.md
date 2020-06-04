@@ -25,9 +25,8 @@ Created webshop with C#, MSSQL, NodeJS & ReThinkDBto load game product pages and
 
 Our ASP.NET CORE is the connector to SQL database and another game database called ReThinkDB which we called this restful api coded inside C#. For this CA project, we have done something special, we have made an MMO(multiple player game) accessible via any browser or mobile at this link: 
 
-Our CA Project is a Game Webshop that sells games and coins. The coin product is the one that when purchased from our webshop can be transferred to the real MMO game. The issue is ReThinkDB has security concerns and that we can only localhost connection to it via our C# program unless we publish and deploy the C# code to the cloud server which we currently can't due to time constraints.
-
-Video Presentation Link: https://www.youtube.com/watch?v=8fGmZzqksig
+Before June Updates 2020.
+April 2020 - Video Presentation Link: https://www.youtube.com/watch?v=8fGmZzqksig
 
 ![mmo](https://user-images.githubusercontent.com/65886071/82803639-76577880-9eb3-11ea-9a23-fbebcd29438c.png)
 
