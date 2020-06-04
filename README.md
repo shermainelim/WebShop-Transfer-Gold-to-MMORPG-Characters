@@ -2,8 +2,8 @@
 
 # Updates June 2020- Shermaine:
 - Successfully deployed Game Web Shop to Cloud under HTTP-
--Successfully added domain name to IP for HTTP Encryption to HTTPS
--Both Game Web Shop and MMO Game now accessible via any web or mobile browser-
+- Successfully added domain name to IP for HTTP Encryption to HTTPS
+- Both Game Web Shop and MMO Game now accessible via any web or mobile browser-
 
 Game Web Shop Link: https://nusteamfour.online/Login/Index
 
