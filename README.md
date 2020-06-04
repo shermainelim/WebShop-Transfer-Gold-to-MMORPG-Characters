@@ -4,9 +4,12 @@
 - Successfully deployed Game Web Shop to Cloud under HTTP-
 -Successfully added domain name to IP for HTTP Encryption to HTTPS
 -Both Game Web Shop and MMO Game now accessible via any web or mobile browser-
+
 Game Web Shop Link: https://nusteamfour.online/Login/Index
+
 MMO Game          : http://game.nusteamfour.online/ 
 
+------------------------------------------------------------------------------------------------------------------------------------
 # Important Note: 
 Please note that this web shop does not use real money to purchase stuff and that we do not support real money gambling on loot boxes. The aim is to establish a link between a web shop to transfer game money to the MMO game itself.  
 
@@ -48,7 +51,7 @@ Please note that this web shop does not use real money to purchase stuff and tha
 
 10)	Test out in next field portal on ABS system to kill monsters. Respawn dead monsters by clicking on them. 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------
 
 # WebShop-Transfer-Gold-to-MMORPG-Characters
 # Introduction
