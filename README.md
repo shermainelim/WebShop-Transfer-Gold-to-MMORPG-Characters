@@ -14,7 +14,7 @@ MMO Game          : http://game.nusteamfour.online/
 Please note that this web shop does not use real money to purchase stuff and that we do not support real money gambling on loot boxes. The aim is to establish a link between a web shop to transfer game money to the MMO game itself.  
 
 # Instructions how to Test Purchase Coins from Game Webshop to MMO Game Together Online. 
-Please refer to Section 5 in this GitHub Wiki - NEW Test Purchase Coins from Game Webshop to MMO Game Together Online Updated June 2020
+- Please refer to Section 5 in this GitHub Wiki - NEW Test Purchase Coins from Game Webshop to MMO Game Together Online Updated June 2020
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
