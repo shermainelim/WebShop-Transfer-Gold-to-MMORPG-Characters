@@ -13,43 +13,8 @@ MMO Game          : http://game.nusteamfour.online/
 # Important Note: 
 Please note that this web shop does not use real money to purchase stuff and that we do not support real money gambling on loot boxes. The aim is to establish a link between a web shop to transfer game money to the MMO game itself.  
 
-# Instructions how to Test Purchase Coins from Game Webshop to MMO Game
-1)	Go to the MMO game at:  http://game.nusteamfour.online/   
-
-![image](https://user-images.githubusercontent.com/65886071/83740320-41a0a980-a689-11ea-90b0-4809075ed8fe.png)
-
-2)	Input any username and password (please remember them for re-login later), if it is new in database, it will be created. 
-
-
-3)	Press ESC and you should see your game character has 0G at bottom left corner.
-
-![image](https://user-images.githubusercontent.com/65886071/83740359-4f562f00-a689-11ea-8425-31ca734f76b3.png)
-
-
-4)	IMPORTANT! Close the game browser first if not transaction will not be successful later.
-
-5)	Now go to the Game Web Shop at http://192.119.86.65:90/Login/Index
-
-![image](https://user-images.githubusercontent.com/65886071/83740651-b8d63d80-a689-11ea-9cb6-84d8d67afead.png)
-
-
-6)	Go explore the site but basically please register and login then PURCHASE the 1000 Coins for NUS Team 4 MMORPG product. 
-
-![image](https://user-images.githubusercontent.com/65886071/83740482-77459280-a689-11ea-8d45-9acce2d693bf.png)
-
-
-7)	Depending on the amount of coins you purchase, now REOPEN THE GAME BROWSER.
-
-8)	Input your game username and password. You should have the reflected coins amount now.
-
-![image](https://user-images.githubusercontent.com/65886071/83740537-8f1d1680-a689-11ea-85a1-8bdff611d3d8.png)
-
-9)	Now you can purchase God Hat and God Sword from the Green Goblin to REFLECT Visual Equipment. Refer to Wiki for more details on how to equip. 
-
-![image](https://user-images.githubusercontent.com/65886071/83740597-a3f9aa00-a689-11ea-8665-4d0f89c7116f.png)
-
-
-10)	Test out in next field portal on ABS system to kill monsters. Respawn dead monsters by clicking on them. 
+# Instructions how to Test Purchase Coins from Game Webshop to MMO Game Together Online. 
+Please refer to Section 5 in this GitHub Wiki - NEW Test Purchase Coins from Game Webshop to MMO Game Together Online Updated June 2020
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
