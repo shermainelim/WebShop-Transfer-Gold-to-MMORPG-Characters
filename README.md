@@ -21,9 +21,7 @@ Please note that this web shop does not use real money to purchase stuff and tha
 # WebShop-Transfer-Gold-to-MMORPG-Characters
 # Introduction
 
-Created webshop with C#, MSSQL, NodeJS & ReThinkDBto load game product pages and also a coin purchase that transfer gold to MMORPG game in real time. Look at video presentation to understand our whole project. Please also check either the WIKI or PDF for more information. 
-
-Hi everyone, before reading this documentation, it is recommended that you see the presentation video to get a better idea of how everything works first. PDF documentation is include together with the code when you download. 
+Created webshop with C#, MSSQL, NodeJS & ReThinkDBto load game product pages and also a coin purchase that transfer gold to MMORPG game in real time. Look at video presentation to understand our whole project. Please also check the WIKI for more information.
 
 Our ASP.NET CORE is the connector to SQL database and another game database called ReThinkDB which we called this restful api coded inside C#. For this CA project, we have done something special, we have made an MMO(multiple player game) accessible via any browser or mobile at this link: 
 
