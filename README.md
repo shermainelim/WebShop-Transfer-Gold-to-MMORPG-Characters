@@ -5,9 +5,9 @@
 - Successfully added domain name to IP for HTTP Encryption to HTTPS
 - Both Game Web Shop and MMO Game now accessible via any web or mobile browser-
 
-- Game Web Shop Link: https://nusteamfour.online/Login/Index
+- Game Web Shop Link: https://coderushwebshop.nusteamfour.online/Login/Index 
 
-- MMO Game          : http://game.nusteamfour.online/ 
+- MMO Game          : http://coderushmmorpg.nusteamfour.online/ 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 # Important Note: 
@@ -50,13 +50,7 @@ Links to the game Plugin Developers:
 
 MMORPG Plugin Developer: https://github.com/samuelcardillo
 
-ABS Visual Equipment Plugin Developer (Using Pro Version):  https://github.com/KageDesu/Alpha-ABS/wiki/Visual-Equipment
-
 For windows users u can download rethinkDB 2.3.6 through this link in Nexus Repository Manager : https://download.rethinkdb.com/#browse/search=keyword%3Dwindows:c770169c0b2e3ed872bbbb55a6612794
-
-# Project file "ProjectFile_MMORPGMaker-MV-MMO_ABS" to edit for RPG MAKER MV ENGINE provided
--Includes plugins from various developers. File size is too large to upload on github, therefore download from my folder in this link: https://drive.google.com/drive/folders/1iyDbCNvO0w3eUOqO_yem0hAQ0raItW3C?usp=sharing
-
 
 Names:
 
