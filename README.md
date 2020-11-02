@@ -5,9 +5,9 @@
 - Successfully added domain name to IP for HTTP Encryption to HTTPS
 - Both Game Web Shop and MMO Game now accessible via any web or mobile browser-
 
-- Game Web Shop Link: https://coderushwebshop.nusteamfour.online/Login/Index 
+- Game Web Shop Link: https://coderushshop.nusteamfour.online/Login/Index
 
-- MMO Game          : http://coderushmmorpg.nusteamfour.online/ 
+- MMO Game          : http://coderushgame.nusteamfour.online/
 
 ------------------------------------------------------------------------------------------------------------------------------------
 # Important Note: 
