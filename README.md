@@ -5,16 +5,22 @@
 - Successfully added domain name to IP for HTTP Encryption to HTTPS
 - Both Game Web Shop and MMO Game now accessible via any web or mobile browser-
 
-- Game Web Shop Link: https://coderushshop.nusteamfour.online/Login/Index
+- Game Web Shop Link : https://orinshop.nusteamfour.online/Products
 
-- MMO Game          : http://coderushgame.nusteamfour.online/
+- MMO Game (Windows) : https://gamejolt.com/games/orinonline/580611
+
+- Play Store (Android): https://play.google.com/store/apps/details?id=com.wOrinOnlinePVPMMO_13118398 
+
+# System Architecture and Walkthrough 2021: 
+https://www.youtube.com/watch?v=E_KJLQx9X6Q&t=350s
+
+# Youtubers Play Test 2021:
+MagicManMo (USA): https://www.youtube.com/watch?v=2UCRfJr45nc&t=607s
+Velzoxic (Singapore): https://www.youtube.com/watch?v=6le2QpOn_gc&t=344s 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 # Important Note: 
 Please note that this web shop does not use real money to purchase stuff and that we do not support real money gambling on loot boxes. The aim is to establish a link between a web shop to transfer game money to the MMO game itself.  
-
-# Instructions how to Test Purchase Coins from Game Webshop to MMO Game Together Online. 
-- Please refer to Section 5 in this GitHub Wiki - NEW Test Purchase Coins from Game Webshop to MMO Game Together Online Updated June 2020
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
