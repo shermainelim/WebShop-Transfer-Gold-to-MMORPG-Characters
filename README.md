@@ -12,7 +12,7 @@
 - Play Store (Android): https://play.google.com/store/apps/details?id=com.wOrinOnlinePVPMMO_13118398 
 
 # System Architecture and Walkthrough 2021: 
-https://www.youtube.com/watch?v=E_KJLQx9X6Q&t=350s
+shermainelim: https://www.youtube.com/watch?v=E_KJLQx9X6Q&t=350s
 
 # Youtubers Play Test 2021:
 
