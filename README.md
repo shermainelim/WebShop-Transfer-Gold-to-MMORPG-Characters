@@ -1,5 +1,8 @@
 # WebShop-Transfer-Gold-to-MMORPG-Characters
 
+# Featured in Newletter:
+https://redharegames.wordpress.com/2021/04/15/game-talk-orin-online/
+
 # Updates June 2020- Shermaine:
 - Successfully deployed Game Web Shop to Cloud under HTTP-
 - Successfully added domain name to IP for HTTP Encryption to HTTPS
