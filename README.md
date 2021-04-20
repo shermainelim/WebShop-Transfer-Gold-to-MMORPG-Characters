@@ -8,11 +8,7 @@ https://redharegames.wordpress.com/2021/04/15/game-talk-orin-online/
 - Successfully added domain name to IP for HTTP Encryption to HTTPS
 - Both Game Web Shop and MMO Game now accessible via any web or mobile browser-
 
-- Game Web Shop Link : https://orinshop.nusteamfour.online/Products
-
 - MMO Game (Windows) : https://gamejolt.com/games/orinonline/580611
-
-- Play Store (Android): https://play.google.com/store/apps/details?id=com.wOrinOnlinePVPMMO_13118398 
 
 # System Architecture and Walkthrough 2021: 
 shermainelim: https://www.youtube.com/watch?v=E_KJLQx9X6Q&t=350s
